@@ -23,6 +23,8 @@
       },
       lastName(val) {
         this.fullName = this.firstName + ' ' + val
+        console.log('lastName 被改变了')
+        console.log(val)
       }
     },
     computed:{
@@ -32,8 +34,14 @@
           console.log('getter被调用了')
           return this.firstName + ' ' + this.lastName
         },
-        set() {
+        set: function (newValue) {
           console.log('setter被调用了')
+          console.log(newValue)
+          var names = newValue.split(' ')
+          this.firstName = names[0]
+          console.log(this.firstName)
+          this.lastName = names[names.length - 1]
+          console.log(this.lastName)
 
         }
       }

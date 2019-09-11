@@ -21,6 +21,7 @@ import ComputeAttr from '@/components/03compute_attr_monitor/ComputeAttr'
 import BasicExample from '@/components/03compute_attr_monitor/BasicExample'
 import ComputedVSWatch from '@/components/03compute_attr_monitor/ComputedVSWatch'
 import ComputedSetter from '@/components/03compute_attr_monitor/ComputedSetter'
+import Watch from '@/components/03compute_attr_monitor/Watch'
 
 Vue.use(Router)
 
@@ -52,6 +53,7 @@ export default new Router({
         {path:'/VueInstance/BasicExample', name:'BasicExample', component:BasicExample},
         {path:'/VueInstance/ComputedVSWatch', name:'ComputedVSWatch', component:ComputedVSWatch},
         {path:'/VueInstance/ComputedSetter', name:'ComputedSetter', component:ComputedSetter},
+        {path:'/VueInstance/Watch', name:'Watch', component:Watch},
       ]
     }
   ]

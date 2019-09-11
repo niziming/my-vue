@@ -100,7 +100,7 @@
                 <router-link :to="{name:'ComputedSetter'}">计算属性的setter</router-link>
               </el-menu-item>
               <el-menu-item index="4-5">
-                <router-link :to="{name:'Commond'}">指令</router-link>
+                <router-link :to="{name:'Watch'}">监听器</router-link>
               </el-menu-item>
               <el-menu-item index="4-6">
                 <router-link :to="{name:'Paremeter'}">参数</router-link>
