@@ -91,13 +91,13 @@
                 <router-link :to="{name:'ComputeAttr'}">计算属性</router-link>
               </el-menu-item>
               <el-menu-item index="4-2">
-                <router-link :to="{name:'OriginHTML'}">原始 HTML</router-link>
+                <router-link :to="{name:'BasicExample'}">基础例子</router-link>
               </el-menu-item>
               <el-menu-item index="4-3">
-                <router-link :to="{name:'Features'}">特性</router-link>
+                <router-link :to="{name:'ComputedVSWatch'}">计算属性 vs 侦听属性</router-link>
               </el-menu-item>
               <el-menu-item index="4-4">
-                <router-link :to="{name:'UseJSExpression'}">使用 JavaScript 表达式</router-link>
+                <router-link :to="{name:'ComputedSetter'}">计算属性的setter</router-link>
               </el-menu-item>
               <el-menu-item index="4-5">
                 <router-link :to="{name:'Commond'}">指令</router-link>

@@ -10,11 +10,12 @@
 <script>
   export default {
     name: "ComputeAttr",
-    data(){
-      return{
-        msg:'msg.split'
+    data() {
+      return {
+        msg: 'msg.split'
       }
-    }
+    },
+
   }
 </script>
 
